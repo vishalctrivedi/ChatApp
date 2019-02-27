@@ -1,0 +1,134 @@
+.Login {
+
+  height: 100%;
+  background-color: rgb(32, 40, 43);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+#header {
+  display: flex;
+  min-height: 15vh;
+  align-items: center;
+  justify-content: center;
+  font-style: arial;
+  font-size: 7mm;
+  color: rgb(82, 100, 102);
+}
+#Email {
+  display: flex;
+  min-height: 15vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#Password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#Register {
+  display: flex;
+  min-height: 1vh;
+  align-items: center;
+  justify-content: center;
+}
+.form-control {
+  background-color: whitesmoke;
+  opacity: 0.9;
+  min-height: 2vh;
+  width: 300px;
+}
+
+.Register {
+  background-color: rgb(36, 54, 54);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+}
+#Passwordss {
+  font-size: xx-small;
+  color: black;
+}
+#alreadyMember {
+  padding-top: 10px;
+}
+
+
+#ForgotPassword {
+  height: 100%;
+  background-position: center;
+  background-color: rgb(43, 63, 63);
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  color: rgb(255, 255, 255);
+}
+#Emaila {
+  display: flex;
+  min-height: 15vh;
+  align-items: center;
+  justify-content: center;
+}
+#Forgot_Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+}
+#FP_header {
+  padding-left: 25%;
+  font-style: arial;
+  font-size: calc(8px + 1.5vmin);
+}
+#headerMem {
+  font-style: arial;
+  font-size: calc(8px + 1.5vmin);
+  color: rgb(140, 169, 172);
+  width: 11%;
+}
+#ResetPassword {
+
+  height: 100%;
+  background-position: center;
+  background-color: rgb(37, 59, 59);
+  background-size: cover;
+  align-items: center;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+}
+#Resetpwd {
+  padding-top: 8%;
+  align-items: center;
+}
+
+#Login_Forgot_Buttons{
+  width: 400px;
+  height: 48px;
+  padding: 0 16px;
+  padding-left: 10%;
+  min-width: 48px;
+  border-radius: 24px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+#Login_Forgot_Buttons1{
+  padding: 5%
+}
