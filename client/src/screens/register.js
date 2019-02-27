@@ -20,7 +20,7 @@ export default class Register extends Component {
   }
   loginClick = e => {
     e.preventDefault();
-    this.props.history.push("/");
+    this.props.history.push("/login");
   };
   resetForm = () => {
     this.setState(this.baseState);

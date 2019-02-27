@@ -1,5 +1,3 @@
-
-
 import React, { Component } from "react";
 import "../App.css";
 import { userLogin } from "../services/userServices";
@@ -155,12 +153,11 @@ export default class Login extends Component {
                         <div key="undo">
                             <Button
                                 key="undo"
+                                label="X"
                                 color="primary"
                                 size="small"
                                 onClick={this.handleSnackClose}
-                            >
-                                X
-              </Button>
+                            />
                         </div>
                     ]}
                 />
