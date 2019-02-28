@@ -1,6 +1,8 @@
 const userService = require("../services/user.services");
 
 exports.login = (req, res) => {
+    console.log(req.body.email);
+    
   try {
     req.checkBody('Email', 'Invaild Email').isEmail();
     req.checkBody('Password', 'Invaild Password').isLength({

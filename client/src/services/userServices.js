@@ -15,7 +15,7 @@ export function forgotPassword(userName) {
    return axios.post('/forgotPassword', {'Email': userName})
 
         .then(function (response) {
-            console.log("reeeess-=====",response);
+            console.log("reeeess-=======",response);
             alert('Please check your mailbox for the link to reset your password.')
         })
         .catch(function (err) {

@@ -113,6 +113,7 @@ export default class Register extends Component {
             snackBarMessage: "Registration Successful!"
           });
           this.props.history.push("/login");
+          //this.props.history.push("/http://localhost:4000/register");
         })
         .catch(err => {
           console.log(err);
